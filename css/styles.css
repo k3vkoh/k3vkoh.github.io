@@ -1,19 +1,18 @@
 .intro {
+	text-align: center;
+}
+
+.about {
 	display: flex; /* Use flexbox to arrange divs side by side */
 }
 
-.intro-image {
+.about-image {
 	width: 50%; /* Each box takes 50% width */
 	padding: 20px;
 	box-sizing: border-box;
 }
 
-.intro-image img { /* Each box takes 50% width */
-	height: 15px;
-	width: auto;
-}
-
-.intro-text {
+.about-text {
 	width: 50%; /* Each box takes 50% width */
 	padding: 20px;
 	box-sizing: border-box;
