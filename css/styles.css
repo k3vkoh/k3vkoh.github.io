@@ -12,11 +12,15 @@ body, html {
 }
 
 .centered-content-container {
-	width: 50%;
-	max-width: 800px; /* Optional: Limit maximum width of centered content */
+	width: 60%;
+	max-width: 900px; /* Optional: Limit maximum width of centered content */
 	text-align: center;
 	padding: 20px;
 	box-sizing: border-box;
+}
+
+.centered-content-container > div {
+	margin-bottom: 20px; /* Add spacing between each div */
 }
 
 .intro {
