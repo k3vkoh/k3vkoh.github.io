@@ -48,6 +48,7 @@ body, html {
 .about-text {
 	flex: 2; /* Take up more space than image */
 	box-sizing: border-box;
+	padding: 20px;
 }
 
 
