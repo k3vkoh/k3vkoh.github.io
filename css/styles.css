@@ -3,25 +3,28 @@
 }
 
 .about {
-	display: flex; /* Use flexbox to arrange divs side by side */
+    display: flex;
+    align-items: center; /* Center vertically */
 }
 
 .about-image {
-	width: 30%; /* Each box takes 50% width */
-	padding: 20px;
-	box-sizing: border-box;
+    flex: 1; /* Take up available space */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.about-image img{
-	max-width: 100%; /* Make sure the image doesn't exceed its container */
-    height: auto; /* Maintain aspect ratio */
+.about-image img {
+    max-width: 100%;
+    height: auto;
     max-height: 200px;
+    display: block; /* Prevent inline alignment issues */
+    margin: 0 auto; /* Center horizontally */
 }
 
 .about-text {
-	width: 60%; /* Each box takes 50% width */
-	padding: 20px;
-	box-sizing: border-box;
+    flex: 2; /* Take up more space than image */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 
