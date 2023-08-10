@@ -1,5 +1,13 @@
+.intro {
+	display: flex; /* Use flexbox to arrange divs side by side */
+}
 
-
+.intro-box{
+	width: 50%; /* Each box takes 50% width */
+	padding: 20px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
 
 
 
