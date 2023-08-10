@@ -1,5 +1,6 @@
 .intro {
 	display: flex; /* Use flexbox to arrange divs side by side */
+	height: 30%;
 }
 
 .intro-image {
