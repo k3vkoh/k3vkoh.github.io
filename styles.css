@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
   }
 
 .header {
@@ -9,9 +12,26 @@ background-color: #333;
 color: white;
 padding: 20px;
 text-align: center;
+flex: 0 0 20%; /* Top div occupies 20% of the available height */
 }
 
 .header-image {
-    margin: 30%;
-    height: 50%
+    margin: 50%;
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide any overflow content outside the circle */
+  }
+
+.circular-image img {
+max-width: 100%;
+height: auto;
+display: block;
 }
+
+.content {
+flex: 1; /* Content div takes the remaining space */
+padding: 20px;
+}
+
+
+
+
