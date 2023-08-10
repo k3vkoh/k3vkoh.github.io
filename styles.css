@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer, main {
+    padding: 20px;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.job, .project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
