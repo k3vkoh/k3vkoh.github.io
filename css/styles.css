@@ -9,21 +9,21 @@
 
 .about-image {
     flex: 1; /* Take up available space */
-    padding: 20px;
+    padding: 70px;
     box-sizing: border-box;
 }
 
 .about-image img {
     max-width: 100%;
     height: auto;
-    max-height: 200px;
+    max-height: 400px;
     display: block; /* Prevent inline alignment issues */
     margin: 0 auto; /* Center horizontally */
 }
 
 .about-text {
     flex: 2; /* Take up more space than image */
-    padding: 20px;
+    padding: 70px;
     box-sizing: border-box;
 }
 
