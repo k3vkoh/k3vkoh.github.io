@@ -1,42 +1,50 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.centered-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.centered-content-container {
+	width: 50%;
+	max-width: 800px; /* Optional: Limit maximum width of centered content */
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
 .intro {
 	text-align: center;
 }
 
 .about {
-    display: flex;
-    align-items: center; /* Center vertically */
+	display: flex;
+	align-items: center; /* Center vertically */
 }
 
 .about-image {
-    flex: 1; /* Take up available space */
-    padding: 70px;
-    box-sizing: border-box;
+	flex: 1; /* Take up available space */
+	box-sizing: border-box;
 }
 
 .about-image img {
-    max-width: 100%;
-    height: auto;
-    max-height: 400px;
-    display: block; /* Prevent inline alignment issues */
-    margin: 0 auto; /* Center horizontally */
+	max-width: 100%;
+	height: auto;
+	max-height: 400px;
+	display: block; /* Prevent inline alignment issues */
+	margin: 0 auto; /* Center horizontally */
 }
 
 .about-text {
-    flex: 2; /* Take up more space than image */
-    padding: 70px;
-    box-sizing: border-box;
+	flex: 2; /* Take up more space than image */
+	box-sizing: border-box;
 }
-
-.resume-link {
-    padding: 70px;
-    box-sizing: border-box;
-}
-
-.experience {
-    padding: 70px;
-    box-sizing: border-box;
-}
-
 
 
 
