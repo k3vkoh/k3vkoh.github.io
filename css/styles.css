@@ -1,6 +1,5 @@
 .intro {
 	display: flex; /* Use flexbox to arrange divs side by side */
-	height: 30%;
 }
 
 .intro-image {
@@ -9,9 +8,9 @@
 	box-sizing: border-box;
 }
 
-.intro-image img {
-	width: 100%; /* Each box takes 50% width */
-	height: auto;
+.intro-image img { /* Each box takes 50% width */
+	height: 20%
+	width: auto;
 }
 
 .intro-text {
