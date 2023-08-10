@@ -7,13 +7,19 @@
 }
 
 .about-image {
-	width: 50%; /* Each box takes 50% width */
+	width: 30%; /* Each box takes 50% width */
 	padding: 20px;
 	box-sizing: border-box;
 }
 
+.about-image img{
+	max-width: 100%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px;
+}
+
 .about-text {
-	width: 50%; /* Each box takes 50% width */
+	width: 60%; /* Each box takes 50% width */
 	padding: 20px;
 	box-sizing: border-box;
 }
