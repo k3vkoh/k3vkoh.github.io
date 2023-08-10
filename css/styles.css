@@ -2,10 +2,20 @@
 	display: flex; /* Use flexbox to arrange divs side by side */
 }
 
-.intro-box{
+.intro-image {
 	width: 50%; /* Each box takes 50% width */
 	padding: 20px;
-	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.intro-image img {
+	width: 25%; /* Each box takes 50% width */
+	height: auto;
+}
+
+.intro-text {
+	width-left: 50%; /* Each box takes 50% width */
+	padding: 20px;
 	box-sizing: border-box;
 }
 
