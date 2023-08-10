@@ -9,12 +9,12 @@
 }
 
 .intro-image img {
-	width: 25%; /* Each box takes 50% width */
+	width: 100%; /* Each box takes 50% width */
 	height: auto;
 }
 
 .intro-text {
-	width-left: 50%; /* Each box takes 50% width */
+	width: 50%; /* Each box takes 50% width */
 	padding: 20px;
 	box-sizing: border-box;
 }
