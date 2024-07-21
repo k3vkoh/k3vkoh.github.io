@@ -1,0 +1,89 @@
+{
+  "about": {
+    "name": "Kevin Koh",
+    "title": "Undergraduate Research Assistant | Incoming SWE @ Deutsche Bank",
+    "photo": "https://cdn.glitch.global/8c28a4c2-1819-4e38-8964-9d781099d06e/DSC_2557.jpg?v=1709062364730",
+    "major": "Computer Science Major",
+    "bio": "I am a senior at Boston College studying Computer Science. Currently, I am working as an undergraduate in the Data Within Reach research group under Professor Nam Wook Kim. My interests are around Human-Computer Interactions, Accessibility, and LLMs. This spring, I will be completing my honors thesis under Professor Nam Wook Kim.",
+    "resume": "https://cdn.glitch.global/8c28a4c2-1819-4e38-8964-9d781099d06e/Kevin%20Koh%20-%20Resume.pdf?v=1709063380794",
+    "linkedin": "https://www.linkedin.com/in/kevin-koh-0a55411a3/",
+    "github": "https://github.com/k3vkoh"
+  },
+  "news": [
+    {
+      "title": "Spring Break to NYC",
+      "date": "2/29 - 3/4"
+    },
+    {
+      "title": "Senior Thesis Presentation",
+      "date": "5/2"
+    },
+    {
+      "title": "Graduating From Boston College",
+      "date": "5/20"
+    },
+    {
+      "title": "Traveling to South Korea and China",
+      "date": "6/1 - 6/14"
+    },
+    {
+      "title": "Moving to NYC",
+      "date": "7/1"
+    }
+  ],
+  "projects": [
+    {
+      "id": "bcta",
+      "title": "BC TA System",
+      "summary": "With the help of Professor Samary and classmate Andy Deng, we developed a new system for the Boston College Computer Science Department. The system allows students to apply for teaching assistant jobs and allows professors to reject and accept teaching assistants using a website rather than google forms. The backend was built in Django and the frontend used HTML, bootstrap, and CSS.",
+      "description": "In the fall of 2023, a team of engineers developed a new system for the Boston College Computer Science Department. The system allows students to apply for teaching assistant jobs and allows professors to reject and accept teaching assistants using a website rather than google forms.",
+      "team": "Kevin Koh, Andy Deng, Prof. Maira Samary, Phil Temples",
+      "backend": "Django",
+      "frontend": "HTML, bootstrap, and CSS",
+      "links": [
+        {
+          "link": "https://github.com/k3vkoh/bc-tasystem",
+          "name": "Code"
+        }
+      ]
+    },
+    {
+      "id": "cashfish",
+      "title": "CashFish",
+      "summary": "As part of learning about stocks, I created CashFish as a way to back-test day trading strategies. Furthermore, I also tracked the highest gainers throughout each month.",
+      "description": "As part of learning about stocks, I created CashFish as a way to back-test day trading strategies. Furthermore, I also tracked the highest gainers throughout each month.",
+      "team": "Kevin Koh",
+      "backend": "Python",
+      "frontend": "Google Sites",
+      "links": [
+        {
+          "link": "https://github.com/k3vkoh/cashfish",
+          "name": "Code"
+        },
+        {
+          "link": "https://www.cashfish.online/",
+          "name": "Website"
+        }
+      ]
+    },
+    {
+      "id": "crosscheck",
+      "title": "CrossCheck",
+      "summary": "CrossCheck is an app that scrapes data from Canvas in order to create a schedule of assignment. Students could easily find when assignments were due, and also add more assignments that were not posted on Canvas. Furthermore, it provided features such as notifications of upcoming due dates.",
+      "description": "CrossCheck is an app that scrapes data from Canvas in order to create a schedule of assignment. Students could easily find when assignments were due, and also add more assignments that were not posted on Canvas. Furthermore, it provided features such as notifications of upcoming due dates.",
+      "team": "Kevin Koh",
+      "backend": "Python, Swift",
+      "frontend": "Swift, XCode",
+      "links": [
+        {
+          "link": "https://github.com/k3vkoh/CrossCheck-ios",
+          "name": "Code - ios frontend"
+        },
+        {
+          "link": "https://github.com/k3vkoh/CrossCheck",
+          "name": "Code - backend"
+        }
+      ]
+    }
+  ]
+}
